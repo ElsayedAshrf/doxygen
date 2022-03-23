@@ -1,0 +1,264 @@
+\hypertarget{_l_c_d_8h}{}\section{L\+C\+D.\+h File Reference}
+\label{_l_c_d_8h}\index{L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_l_c_d_8h_a221b02b65527a670a158a9b1387e877c}{C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY}~0x01
+\item 
+\#define \hyperlink{_l_c_d_8h_a132a90af728916a595bcf5a52cfac21c}{R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME}~0x02
+\item 
+\#define \hyperlink{_l_c_d_8h_aa609aa58e71261c40627750bbaa1ca1c}{E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET}~0x06
+\item 
+\#define \hyperlink{_l_c_d_8h_a9e3cf684dfc709604dda20a2dfb734eb}{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL}~0x0f
+\item 
+\#define \hyperlink{_l_c_d_8h_a2bf8f776aa0a0a08ee09102e9efbee6a}{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL}~0x08
+\item 
+\#define \hyperlink{_l_c_d_8h_a9eec80c4260911e8cc111f37533c826a}{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR}~0x0e
+\item 
+\#define \hyperlink{_l_c_d_8h_a3492feac049847394b46ea21791b8d1e}{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT}~0x10
+\item 
+\#define \hyperlink{_l_c_d_8h_acfe5e4a439a4270cf4a0d3051898f274}{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT}~0x14
+\item 
+\#define \hyperlink{_l_c_d_8h_a55d195769fa23e79cba5541bf17aa072}{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT}~0x18
+\item 
+\#define \hyperlink{_l_c_d_8h_ac37f54a0a061bea41fef8dd0293e82e6}{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT}~0x1c
+\item 
+\#define \hyperlink{_l_c_d_8h_a2741b9615b48cd986ed737daf358c180}{S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON}~0x38
+\item 
+\#define \hyperlink{_l_c_d_8h_a9693fcc03e9a7b444afffc1c938959b0}{S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}~0x40
+\item 
+\#define \hyperlink{_l_c_d_8h_a3fb4b959d2f90556f0ec5766a804a00e}{S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}~0x80
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_l_c_d_8h_aa53c9d40f3aa552a9974cd55ac510cb3}{L\+C\+D\+\_\+\+Init} (void)
+\begin{DoxyCompactList}\small\item\em L\+CD initialition. \end{DoxyCompactList}\item 
+void \hyperlink{_l_c_d_8h_aa85226cc831d2913bb97dd6339094d09}{L\+C\+D\+\_\+\+Vid\+Send\+Command} (uint8 Command)
+\begin{DoxyCompactList}\small\item\em Send command. \end{DoxyCompactList}\item 
+void \hyperlink{_l_c_d_8h_a467539b7eda114ca38437a6444488fe5}{L\+C\+D\+\_\+\+Vid\+Send\+Char} (uint8 Data)
+\begin{DoxyCompactList}\small\item\em print one character \end{DoxyCompactList}\item 
+void \hyperlink{_l_c_d_8h_a872d514b2ee8731c543fa7c852a54986}{L\+C\+D\+\_\+\+Vid\+Go\+Toxy} (uint8 x, uint8 y)
+\begin{DoxyCompactList}\small\item\em move cursor \end{DoxyCompactList}\item 
+void \hyperlink{_l_c_d_8h_ae91f2d33adc2eee41b3f9118306cb1e2}{L\+C\+D\+\_\+\+Vid\+Send\+String} (uint8 $\ast$String\+Cpy, uint8 Index)
+\begin{DoxyCompactList}\small\item\em print string of character \end{DoxyCompactList}\item 
+void \hyperlink{_l_c_d_8h_aaf9f594e5bab9309b6fc9bf9bdb5975a}{L\+C\+D\+\_\+vid\+Write\+Extra\+Char} (uint8 X, uint8 Y)
+\begin{DoxyCompactList}\small\item\em print one character \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+used macros and functions to display L\+CD
+
+Created on\+: 14/01/2022 \begin{DoxyAuthor}{Author}
+Salma\+Abdeen 
+\end{DoxyAuthor}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{_l_c_d_8h_a221b02b65527a670a158a9b1387e877c}{}\label{_l_c_d_8h_a221b02b65527a670a158a9b1387e877c} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY@{C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY}}
+\index{C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY@{C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY}{CLEAR\_DISPLAY}}
+{\footnotesize\ttfamily \#define C\+L\+E\+A\+R\+\_\+\+D\+I\+S\+P\+L\+AY~0x01}
+
+\hypertarget{_l_c_d_8h_a2bf8f776aa0a0a08ee09102e9efbee6a}{}\label{_l_c_d_8h_a2bf8f776aa0a0a08ee09102e9efbee6a} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL}}
+\index{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL}{DISPLAY\_OFF\_CONTROL}}
+{\footnotesize\ttfamily \#define D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+O\+N\+T\+R\+OL~0x08}
+
+\hypertarget{_l_c_d_8h_a9e3cf684dfc709604dda20a2dfb734eb}{}\label{_l_c_d_8h_a9e3cf684dfc709604dda20a2dfb734eb} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL}}
+\index{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL}{DISPLAY\_ON\_CONTROL}}
+{\footnotesize\ttfamily \#define D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+O\+N\+T\+R\+OL~0x0f}
+
+\hypertarget{_l_c_d_8h_a9eec80c4260911e8cc111f37533c826a}{}\label{_l_c_d_8h_a9eec80c4260911e8cc111f37533c826a} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR}}
+\index{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR}{DISPLAY\_ON\_CURSOR}}
+{\footnotesize\ttfamily \#define D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+OR~0x0e}
+
+\hypertarget{_l_c_d_8h_a3492feac049847394b46ea21791b8d1e}{}\label{_l_c_d_8h_a3492feac049847394b46ea21791b8d1e} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT}}
+\index{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT}{DISPLAY\_SHIFT\_CURSOR\_LEFT}}
+{\footnotesize\ttfamily \#define D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+L\+E\+FT~0x10}
+
+\hypertarget{_l_c_d_8h_acfe5e4a439a4270cf4a0d3051898f274}{}\label{_l_c_d_8h_acfe5e4a439a4270cf4a0d3051898f274} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT}}
+\index{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT@{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT}{DISPLAY\_SHIFT\_CURSOR\_RIGHT}}
+{\footnotesize\ttfamily \#define D\+I\+S\+P\+L\+A\+Y\+\_\+\+S\+H\+I\+F\+T\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+R\+I\+G\+HT~0x14}
+
+\hypertarget{_l_c_d_8h_aa609aa58e71261c40627750bbaa1ca1c}{}\label{_l_c_d_8h_aa609aa58e71261c40627750bbaa1ca1c} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET@{E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET}}
+\index{E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET@{E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET}{ENTRY\_MODE\_SET}}
+{\footnotesize\ttfamily \#define E\+N\+T\+R\+Y\+\_\+\+M\+O\+D\+E\+\_\+\+S\+ET~0x06}
+
+\hypertarget{_l_c_d_8h_a132a90af728916a595bcf5a52cfac21c}{}\label{_l_c_d_8h_a132a90af728916a595bcf5a52cfac21c} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME@{R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME}}
+\index{R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME@{R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME}{RETURN\_HOME}}
+{\footnotesize\ttfamily \#define R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+ME~0x02}
+
+\hypertarget{_l_c_d_8h_a9693fcc03e9a7b444afffc1c938959b0}{}\label{_l_c_d_8h_a9693fcc03e9a7b444afffc1c938959b0} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS@{S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}}
+\index{S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS@{S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}{SET\_CGRAM\_ADDRESS}}
+{\footnotesize\ttfamily \#define S\+E\+T\+\_\+\+C\+G\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS~0x40}
+
+\hypertarget{_l_c_d_8h_a3fb4b959d2f90556f0ec5766a804a00e}{}\label{_l_c_d_8h_a3fb4b959d2f90556f0ec5766a804a00e} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS@{S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}}
+\index{S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS@{S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS}{SET\_DDRAM\_ADDRESS}}
+{\footnotesize\ttfamily \#define S\+E\+T\+\_\+\+D\+D\+R\+A\+M\+\_\+\+A\+D\+D\+R\+E\+SS~0x80}
+
+\hypertarget{_l_c_d_8h_a2741b9615b48cd986ed737daf358c180}{}\label{_l_c_d_8h_a2741b9615b48cd986ed737daf358c180} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON@{S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON}}
+\index{S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON@{S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON}{SET\_FUNCTION}}
+{\footnotesize\ttfamily \#define S\+E\+T\+\_\+\+F\+U\+N\+C\+T\+I\+ON~0x38}
+
+\hypertarget{_l_c_d_8h_a55d195769fa23e79cba5541bf17aa072}{}\label{_l_c_d_8h_a55d195769fa23e79cba5541bf17aa072} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT@{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT}}
+\index{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT@{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT}{SHIFT\_DISPLAY\_LEFT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+L\+E\+FT~0x18}
+
+\hypertarget{_l_c_d_8h_ac37f54a0a061bea41fef8dd0293e82e6}{}\label{_l_c_d_8h_ac37f54a0a061bea41fef8dd0293e82e6} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT@{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT}}
+\index{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT@{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT}{SHIFT\_DISPLAY\_RIGHT}}
+{\footnotesize\ttfamily \#define S\+H\+I\+F\+T\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+R\+I\+G\+HT~0x1c}
+
+
+
+\subsection{Function Documentation}
+\hypertarget{_l_c_d_8h_aa53c9d40f3aa552a9974cd55ac510cb3}{}\label{_l_c_d_8h_aa53c9d40f3aa552a9974cd55ac510cb3} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+\+Init@{L\+C\+D\+\_\+\+Init}}
+\index{L\+C\+D\+\_\+\+Init@{L\+C\+D\+\_\+\+Init}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Init()}{LCD\_Init()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+L\+CD initialition. 
+
+function to initial the L\+CD to be active by specific steps as in data sheet
+
+
+\begin{DoxyParams}{Parameters}
+{\em No} & parameter need \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8h_a872d514b2ee8731c543fa7c852a54986}{}\label{_l_c_d_8h_a872d514b2ee8731c543fa7c852a54986} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+\+Vid\+Go\+Toxy@{L\+C\+D\+\_\+\+Vid\+Go\+Toxy}}
+\index{L\+C\+D\+\_\+\+Vid\+Go\+Toxy@{L\+C\+D\+\_\+\+Vid\+Go\+Toxy}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Go\+Toxy()}{LCD\_VidGoToxy()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Go\+Toxy (\begin{DoxyParamCaption}\item[{uint8}]{x,  }\item[{uint8}]{y }\end{DoxyParamCaption})}
+
+
+
+move cursor 
+
+function to go to specific row and column in lcd
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the number of row wanted to go \\
+\hline
+{\em y} & the number of column wanted to go \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8h_a467539b7eda114ca38437a6444488fe5}{}\label{_l_c_d_8h_a467539b7eda114ca38437a6444488fe5} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+\+Vid\+Send\+Char@{L\+C\+D\+\_\+\+Vid\+Send\+Char}}
+\index{L\+C\+D\+\_\+\+Vid\+Send\+Char@{L\+C\+D\+\_\+\+Vid\+Send\+Char}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Send\+Char()}{LCD\_VidSendChar()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Send\+Char (\begin{DoxyParamCaption}\item[{uint8}]{Data }\end{DoxyParamCaption})}
+
+
+
+print one character 
+
+function to send character to the lcd to show it by specific steps as in data sheet
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the character to print \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8h_aa85226cc831d2913bb97dd6339094d09}{}\label{_l_c_d_8h_aa85226cc831d2913bb97dd6339094d09} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+\+Vid\+Send\+Command@{L\+C\+D\+\_\+\+Vid\+Send\+Command}}
+\index{L\+C\+D\+\_\+\+Vid\+Send\+Command@{L\+C\+D\+\_\+\+Vid\+Send\+Command}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Send\+Command()}{LCD\_VidSendCommand()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Send\+Command (\begin{DoxyParamCaption}\item[{uint8}]{Command }\end{DoxyParamCaption})}
+
+
+
+Send command. 
+
+function to send command to the lcd to do by specific steps as in data sheet
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & the command to exectute \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8h_ae91f2d33adc2eee41b3f9118306cb1e2}{}\label{_l_c_d_8h_ae91f2d33adc2eee41b3f9118306cb1e2} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+\+Vid\+Send\+String@{L\+C\+D\+\_\+\+Vid\+Send\+String}}
+\index{L\+C\+D\+\_\+\+Vid\+Send\+String@{L\+C\+D\+\_\+\+Vid\+Send\+String}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Send\+String()}{LCD\_VidSendString()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Send\+String (\begin{DoxyParamCaption}\item[{uint8 $\ast$}]{String\+Cpy,  }\item[{uint8}]{Index }\end{DoxyParamCaption})}
+
+
+
+print string of character 
+
+function to send string to show it to lcd by using L\+C\+D\+\_\+vid\+Send\+Char function and string as array of char
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & the array wanted to prin \\
+\hline
+{\em index} & the length of characters must be print from array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8h_aaf9f594e5bab9309b6fc9bf9bdb5975a}{}\label{_l_c_d_8h_aaf9f594e5bab9309b6fc9bf9bdb5975a} 
+\index{L\+C\+D.\+h@{L\+C\+D.\+h}!L\+C\+D\+\_\+vid\+Write\+Extra\+Char@{L\+C\+D\+\_\+vid\+Write\+Extra\+Char}}
+\index{L\+C\+D\+\_\+vid\+Write\+Extra\+Char@{L\+C\+D\+\_\+vid\+Write\+Extra\+Char}!L\+C\+D.\+h@{L\+C\+D.\+h}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+vid\+Write\+Extra\+Char()}{LCD\_vidWriteExtraChar()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+vid\+Write\+Extra\+Char (\begin{DoxyParamCaption}\item[{uint8}]{X,  }\item[{uint8}]{Y }\end{DoxyParamCaption})}
+
+
+
+print one character 
+
+function to save and show extra string to show it to lcd by using L\+C\+D\+\_\+vid\+Send\+Char function and Extra\+\_\+char array
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the number of row wanted to print in \\
+\hline
+{\em y} & the number of column wanted to print in \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}
