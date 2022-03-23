@@ -1,0 +1,123 @@
+\hypertarget{_d_i_o_8c}{}\doxysection{input\+\_\+files/\+DIO.c File Reference}
+\label{_d_i_o_8c}\index{input\_files/DIO.c@{input\_files/DIO.c}}
+{\ttfamily \#include \char`\"{}STD\+\_\+\+TYPES.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}MEMMAP.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}BIT\+\_\+\+MATH.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}DIO\+\_\+config.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}DIO.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_d_i_o_8c_ab5233e8a2461146945fe55275f5fb7b2}{DIO\+\_\+\+INIT}} (void)
+\begin{DoxyCompactList}\small\item\em first function its about how to initalize the digital input output \end{DoxyCompactList}\item 
+Uint8 \mbox{\hyperlink{_d_i_o_8c_ac0c6d535cb1cbe50ef31a6e760f4c2b7}{DIO\+\_\+\+READ\+\_\+\+CHANNEL}} (Uint8 channel)
+\begin{DoxyCompactList}\small\item\em first function its about how to Read the digital input output channel \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_d_i_o_8c_ad3b623df2592a65987a08a5799fd5d0a}{DIO\+\_\+\+WRITE\+\_\+\+CHANNEL}} (Uint8 channel, Uint8 level)
+\begin{DoxyCompactList}\small\item\em first function its about how to write the digital input output channel \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_d_i_o_8c_a0d582957dec2a073e5d32abe619f851e}{DIO\+\_\+\+WRITE\+\_\+\+PORT}} (Uint8 PORT, Uint8 VALUE)
+\begin{DoxyCompactList}\small\item\em first function its about how to write the digital input output port \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Uint8 \mbox{\hyperlink{_d_i_o_8c_a8642b35ae5d0fb28fcc200e9091164e6}{DIO\+\_\+\+PIN\+\_\+\+CONFIGURATION}} \mbox{[}32\mbox{]}
+\begin{DoxyCompactList}\small\item\em first function its about how to initalize the digital input output \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_d_i_o_8c_ab5233e8a2461146945fe55275f5fb7b2}\label{_d_i_o_8c_ab5233e8a2461146945fe55275f5fb7b2}} 
+\index{DIO.c@{DIO.c}!DIO\_INIT@{DIO\_INIT}}
+\index{DIO\_INIT@{DIO\_INIT}!DIO.c@{DIO.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_INIT()}{DIO\_INIT()}}
+{\footnotesize\ttfamily void DIO\+\_\+\+INIT (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+first function its about how to initalize the digital input output 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_i_o_8c_ac0c6d535cb1cbe50ef31a6e760f4c2b7}\label{_d_i_o_8c_ac0c6d535cb1cbe50ef31a6e760f4c2b7}} 
+\index{DIO.c@{DIO.c}!DIO\_READ\_CHANNEL@{DIO\_READ\_CHANNEL}}
+\index{DIO\_READ\_CHANNEL@{DIO\_READ\_CHANNEL}!DIO.c@{DIO.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_READ\_CHANNEL()}{DIO\_READ\_CHANNEL()}}
+{\footnotesize\ttfamily Uint8 DIO\+\_\+\+READ\+\_\+\+CHANNEL (\begin{DoxyParamCaption}\item[{Uint8}]{channel }\end{DoxyParamCaption})}
+
+
+
+first function its about how to Read the digital input output channel 
+
+first function its about how to write the digital input output channel
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Uint8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_i_o_8c_ad3b623df2592a65987a08a5799fd5d0a}\label{_d_i_o_8c_ad3b623df2592a65987a08a5799fd5d0a}} 
+\index{DIO.c@{DIO.c}!DIO\_WRITE\_CHANNEL@{DIO\_WRITE\_CHANNEL}}
+\index{DIO\_WRITE\_CHANNEL@{DIO\_WRITE\_CHANNEL}!DIO.c@{DIO.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_WRITE\_CHANNEL()}{DIO\_WRITE\_CHANNEL()}}
+{\footnotesize\ttfamily void DIO\+\_\+\+WRITE\+\_\+\+CHANNEL (\begin{DoxyParamCaption}\item[{Uint8}]{channel,  }\item[{Uint8}]{level }\end{DoxyParamCaption})}
+
+
+
+first function its about how to write the digital input output channel 
+
+first function its about how to Read the digital input output channel
+
+
+\begin{DoxyParams}{Parameters}
+{\em channel} & level \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_i_o_8c_a0d582957dec2a073e5d32abe619f851e}\label{_d_i_o_8c_a0d582957dec2a073e5d32abe619f851e}} 
+\index{DIO.c@{DIO.c}!DIO\_WRITE\_PORT@{DIO\_WRITE\_PORT}}
+\index{DIO\_WRITE\_PORT@{DIO\_WRITE\_PORT}!DIO.c@{DIO.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_WRITE\_PORT()}{DIO\_WRITE\_PORT()}}
+{\footnotesize\ttfamily void DIO\+\_\+\+WRITE\+\_\+\+PORT (\begin{DoxyParamCaption}\item[{Uint8}]{PORT,  }\item[{Uint8}]{VALUE }\end{DoxyParamCaption})}
+
+
+
+first function its about how to write the digital input output port 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_d_i_o_8c_a8642b35ae5d0fb28fcc200e9091164e6}\label{_d_i_o_8c_a8642b35ae5d0fb28fcc200e9091164e6}} 
+\index{DIO.c@{DIO.c}!DIO\_PIN\_CONFIGURATION@{DIO\_PIN\_CONFIGURATION}}
+\index{DIO\_PIN\_CONFIGURATION@{DIO\_PIN\_CONFIGURATION}!DIO.c@{DIO.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_PIN\_CONFIGURATION}{DIO\_PIN\_CONFIGURATION}}
+{\footnotesize\ttfamily Uint8 DIO\+\_\+\+PIN\+\_\+\+CONFIGURATION\mbox{[}32\mbox{]}\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+first function its about how to initalize the digital input output 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

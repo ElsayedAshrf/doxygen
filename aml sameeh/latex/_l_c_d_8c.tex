@@ -1,0 +1,98 @@
+\hypertarget{_l_c_d_8c}{}\section{L\+C\+D.\+c File Reference}
+\label{_l_c_d_8c}\index{L\+C\+D.\+c@{L\+C\+D.\+c}}
+
+
+A L\+CD driver .  
+
+
+{\ttfamily \#include \char`\"{}S\+T\+D\+\_\+\+Types.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}M\+E\+M\+M\+A\+P.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}L\+C\+D\+\_\+cfg.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+I\+O.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+I\+O\+\_\+cfg.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}util/delay.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}L\+C\+D.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_l_c_d_8c_ab26cc7872b36b988e01058c52a20ad5a}{L\+C\+D\+\_\+\+Vid\+Send\+Command} (uint8 command)
+\begin{DoxyCompactList}\small\item\em this is the initialization of lcd to be activ . \end{DoxyCompactList}\item 
+\hypertarget{_l_c_d_8c_a3ae10f1191ce28792ce37cb81d8afa41}{}\label{_l_c_d_8c_a3ae10f1191ce28792ce37cb81d8afa41} 
+void {\bfseries L\+C\+D\+\_\+\+I\+N\+N\+IT} (void)
+\item 
+void \hyperlink{_l_c_d_8c_aa94af9e74aebb8e070a73524d03a270e}{L\+C\+D\+\_\+\+Vid\+Send\+Character} (uint8 data)
+\begin{DoxyCompactList}\small\item\em send a command to appear in the L\+CD. \end{DoxyCompactList}\item 
+\hypertarget{_l_c_d_8c_a81a66de461eac38987944150734d2585}{}\label{_l_c_d_8c_a81a66de461eac38987944150734d2585} 
+void {\bfseries L\+C\+D\+\_\+\+Send\+String} (uint8 $\ast$D\+A\+TA, uint8 index)
+\item 
+void \hyperlink{_l_c_d_8c_aa81f72f0f78a2d599427d56f605f7606}{L\+C\+D\+\_\+\+Vid\+Go\+To\+XY} (uint8 x, uint8 y)
+\begin{DoxyCompactList}\small\item\em send a character to the lcd . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A L\+CD driver . 
+
+These empty function definitions are provided so that stdio will build without complaining. You will need to fill these functions in. This is the implementation of the L\+CD driver. Important details about its implementation should go in these comments.
+
+\begin{DoxyAuthor}{Author}
+Aml sameeh 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000001}{Bug}]No know bugs\+\_\+\+Aml. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\hypertarget{_l_c_d_8c_aa81f72f0f78a2d599427d56f605f7606}{}\label{_l_c_d_8c_aa81f72f0f78a2d599427d56f605f7606} 
+\index{L\+C\+D.\+c@{L\+C\+D.\+c}!L\+C\+D\+\_\+\+Vid\+Go\+To\+XY@{L\+C\+D\+\_\+\+Vid\+Go\+To\+XY}}
+\index{L\+C\+D\+\_\+\+Vid\+Go\+To\+XY@{L\+C\+D\+\_\+\+Vid\+Go\+To\+XY}!L\+C\+D.\+c@{L\+C\+D.\+c}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Go\+To\+X\+Y()}{LCD\_VidGoToXY()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Go\+To\+XY (\begin{DoxyParamCaption}\item[{uint8}]{x,  }\item[{uint8}]{y }\end{DoxyParamCaption})}
+
+
+
+send a character to the lcd . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em the} & character that send to the lcd . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8c_aa94af9e74aebb8e070a73524d03a270e}{}\label{_l_c_d_8c_aa94af9e74aebb8e070a73524d03a270e} 
+\index{L\+C\+D.\+c@{L\+C\+D.\+c}!L\+C\+D\+\_\+\+Vid\+Send\+Character@{L\+C\+D\+\_\+\+Vid\+Send\+Character}}
+\index{L\+C\+D\+\_\+\+Vid\+Send\+Character@{L\+C\+D\+\_\+\+Vid\+Send\+Character}!L\+C\+D.\+c@{L\+C\+D.\+c}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Send\+Character()}{LCD\_VidSendCharacter()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Send\+Character (\begin{DoxyParamCaption}\item[{uint8}]{data }\end{DoxyParamCaption})}
+
+
+
+send a command to appear in the L\+CD. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em the} & command that be send. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\hypertarget{_l_c_d_8c_ab26cc7872b36b988e01058c52a20ad5a}{}\label{_l_c_d_8c_ab26cc7872b36b988e01058c52a20ad5a} 
+\index{L\+C\+D.\+c@{L\+C\+D.\+c}!L\+C\+D\+\_\+\+Vid\+Send\+Command@{L\+C\+D\+\_\+\+Vid\+Send\+Command}}
+\index{L\+C\+D\+\_\+\+Vid\+Send\+Command@{L\+C\+D\+\_\+\+Vid\+Send\+Command}!L\+C\+D.\+c@{L\+C\+D.\+c}}
+\subsubsection{\texorpdfstring{L\+C\+D\+\_\+\+Vid\+Send\+Command()}{LCD\_VidSendCommand()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+\+Vid\+Send\+Command (\begin{DoxyParamCaption}\item[{uint8}]{command }\end{DoxyParamCaption})}
+
+
+
+this is the initialization of lcd to be activ . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

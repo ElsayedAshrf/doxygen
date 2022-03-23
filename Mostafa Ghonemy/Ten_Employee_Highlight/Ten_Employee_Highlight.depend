@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1636906648 source:g:\c_labs\lab5\ten_employee_highlight\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gotoxy.h"
+	"textattr.h"
+	<string.h>
+
+1636801491 g:\c_labs\lab5\ten_employee_highlight\gotoxy.h
+	<stdlib.h>
+	<windows.h>
+
+1636806821 g:\c_labs\lab5\ten_employee_highlight\textattr.h
+	<stdlib.h>
+	<windows.h>
+
