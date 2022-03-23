@@ -1,0 +1,103 @@
+\hypertarget{motor_8c}{}\section{M\+O\+T\+O\+R/motor.c File Reference}
+\label{motor_8c}\index{M\+O\+T\+O\+R/motor.\+c@{M\+O\+T\+O\+R/motor.\+c}}
+
+
+a motor driver.  
+
+
+{\ttfamily \#include \char`\"{}S\+T\+D\+\_\+\+Types.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}M\+E\+M\+M\+A\+P.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+I\+O.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}B\+I\+T\+\_\+\+M\+A\+T\+H.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}D\+I\+O\+\_\+\+C\+F\+G.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}motor.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{motor_8c_a6b55a2cf8d7627f4a788939610935091}{motor\+\_\+right} (uint8 P\+I\+N1, uint8 P\+I\+N2)
+\begin{DoxyCompactList}\small\item\em motor rotate right \end{DoxyCompactList}\item 
+void \hyperlink{motor_8c_a4281d4ee0f4f2ec50152319d400310a1}{motor\+\_\+left} (uint8 P\+I\+N1, uint8 P\+I\+N2)
+\begin{DoxyCompactList}\small\item\em motor rotate left \end{DoxyCompactList}\item 
+void \hyperlink{motor_8c_af56c7511697f620ca362c774e1afaf1a}{motor\+\_\+stop} (uint8 P\+I\+N1, uint8 P\+I\+N2)
+\begin{DoxyCompactList}\small\item\em stop motor \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+a motor driver. 
+
+These is a function definitions are provided so that we can use it in other projects easly. They define its rotaion as it maybe right or left, And also display it.
+
+\begin{DoxyAuthor}{Author}
+M\+E\+N\+NA 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000002}{Bug}]No know bugs\+\_\+\+\_\+\+\_\+. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\hypertarget{motor_8c_a4281d4ee0f4f2ec50152319d400310a1}{}\label{motor_8c_a4281d4ee0f4f2ec50152319d400310a1} 
+\index{motor.\+c@{motor.\+c}!motor\+\_\+left@{motor\+\_\+left}}
+\index{motor\+\_\+left@{motor\+\_\+left}!motor.\+c@{motor.\+c}}
+\subsubsection{\texorpdfstring{motor\+\_\+left()}{motor\_left()}}
+{\footnotesize\ttfamily void motor\+\_\+left (\begin{DoxyParamCaption}\item[{uint8}]{P\+I\+N1,  }\item[{uint8}]{P\+I\+N2 }\end{DoxyParamCaption})}
+
+
+
+motor rotate left 
+
+It takes pin numbers where the terminal of the motor are connected as the direction of rotation is always viewed from its end side. the motor should rotate counter-\/clockwise cause we puts zero volt in one of them.
+
+
+\begin{DoxyParams}{Parameters}
+{\em P\+I\+N1} & the num of the pin in your port. \\
+\hline
+{\em P\+I\+N2} & the num of the pin in your port. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\hypertarget{motor_8c_a6b55a2cf8d7627f4a788939610935091}{}\label{motor_8c_a6b55a2cf8d7627f4a788939610935091} 
+\index{motor.\+c@{motor.\+c}!motor\+\_\+right@{motor\+\_\+right}}
+\index{motor\+\_\+right@{motor\+\_\+right}!motor.\+c@{motor.\+c}}
+\subsubsection{\texorpdfstring{motor\+\_\+right()}{motor\_right()}}
+{\footnotesize\ttfamily void motor\+\_\+right (\begin{DoxyParamCaption}\item[{uint8}]{P\+I\+N1,  }\item[{uint8}]{P\+I\+N2 }\end{DoxyParamCaption})}
+
+
+
+motor rotate right 
+
+It takes pin numbers where the terminal of the motor are connected as the direction of rotation is always viewed from its end side. the motor should rotate clockwise cause we puts zero volt in one of them.
+
+
+\begin{DoxyParams}{Parameters}
+{\em P\+I\+N1} & the num of the pin in your port. \\
+\hline
+{\em P\+I\+N2} & the num of the pin in your port. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\hypertarget{motor_8c_af56c7511697f620ca362c774e1afaf1a}{}\label{motor_8c_af56c7511697f620ca362c774e1afaf1a} 
+\index{motor.\+c@{motor.\+c}!motor\+\_\+stop@{motor\+\_\+stop}}
+\index{motor\+\_\+stop@{motor\+\_\+stop}!motor.\+c@{motor.\+c}}
+\subsubsection{\texorpdfstring{motor\+\_\+stop()}{motor\_stop()}}
+{\footnotesize\ttfamily void motor\+\_\+stop (\begin{DoxyParamCaption}\item[{uint8}]{P\+I\+N1,  }\item[{uint8}]{P\+I\+N2 }\end{DoxyParamCaption})}
+
+
+
+stop motor 
+
+It takes pin numbers where the terminal of the motor are connected as the direction of rotation is always viewed from its end side. the motor should stop working cause we puts zero volt in both of them.
+
+
+\begin{DoxyParams}{Parameters}
+{\em P\+I\+N1} & the num of the pin in your port. \\
+\hline
+{\em P\+I\+N2} & the num of the pin in your port. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}

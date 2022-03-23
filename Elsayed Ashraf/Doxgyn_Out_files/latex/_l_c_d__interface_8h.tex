@@ -1,0 +1,108 @@
+\section{L\+C\+D\+\_\+interface.\+h File Reference}
+\label{_l_c_d__interface_8h}\index{LCD\_interface.h@{LCD\_interface.h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ L\+C\+D\+\_\+void\+Send\+Command} (u8 Copy\+\_\+u8\+Command)
+\begin{DoxyCompactList}\small\item\em this is function Send the command to the L\+CD \end{DoxyCompactList}\item 
+void \textbf{ L\+C\+D\+\_\+void\+Send\+Data} (u8 Copy\+\_\+u8\+Data)
+\begin{DoxyCompactList}\small\item\em this is function Send the Data to the L\+CD \end{DoxyCompactList}\item 
+void \textbf{ L\+C\+D\+\_\+void\+Init} (void)
+\begin{DoxyCompactList}\small\item\em Initialization of L\+CD. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{_l_c_d__interface_8h_a9939aa0ac8f65ebd9ad2b3eb608ba925}} 
+\index{LCD\_interface.h@{LCD\_interface.h}!LCD\_voidInit@{LCD\_voidInit}}
+\index{LCD\_voidInit@{LCD\_voidInit}!LCD\_interface.h@{LCD\_interface.h}}
+\subsubsection{LCD\_voidInit()}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+void\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialization of L\+CD. 
+
+Wait for more than 30ms after power up
+
+Then Use set command Function to initialize lines and font
+
+1-\/ 2 lines 2-\/ Font = 5$\ast$7
+
+Then Use set command Function to Display On Off control command 1-\/ Display enable 2-\/ Cursor off 3-\/ Blink Cursor off
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+Initialization of L\+CD.
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\label{_l_c_d__interface_8h_a8e2918471a3b4ad25ffd14a814e08c9e}} 
+\index{LCD\_interface.h@{LCD\_interface.h}!LCD\_voidSendCommand@{LCD\_voidSendCommand}}
+\index{LCD\_voidSendCommand@{LCD\_voidSendCommand}!LCD\_interface.h@{LCD\_interface.h}}
+\subsubsection{LCD\_voidSendCommand()}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+void\+Send\+Command (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8\+Command }\end{DoxyParamCaption})}
+
+
+
+this is function Send the command to the L\+CD 
+
+
+\begin{DoxyParams}{Parameters}
+{\em 8} & bit command\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+this is function Send the command to the L\+CD
+
+
+\begin{DoxyParams}{Parameters}
+{\em 8} & bit command\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\label{_l_c_d__interface_8h_a6e31083c0cb3e71bcb1a5b4a3986a7f1}} 
+\index{LCD\_interface.h@{LCD\_interface.h}!LCD\_voidSendData@{LCD\_voidSendData}}
+\index{LCD\_voidSendData@{LCD\_voidSendData}!LCD\_interface.h@{LCD\_interface.h}}
+\subsubsection{LCD\_voidSendData()}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+void\+Send\+Data (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8\+Data }\end{DoxyParamCaption})}
+
+
+
+this is function Send the Data to the L\+CD 
+
+
+\begin{DoxyParams}{Parameters}
+{\em 8} & bit Data\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+this is function Send the Data to the L\+CD
+
+Set RW pin to write , Set Rs pin to Data , Send the Data to the L\+CD , Enable pulse
+
+
+\begin{DoxyParams}{Parameters}
+{\em 8} & bit Data\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
